@@ -4,8 +4,10 @@
   border: 0;
 }
 body {
+	border-top: 3px solid #8cc540;
 	font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	background-color: #fff;
+	width: 100%;
 }
 .s1 {
 	color: #0095da;
@@ -13,6 +15,7 @@ body {
 	position: relative;
 	text-align: left;
 	vertical-align: middle;
+	margin-left: 20px;
 }
 .MESI {
 	font-size: 80px;
@@ -28,4 +31,12 @@ body {
 .pos {
 	text-decoration: underline;
 	display: inline;
+}
+.s3 {
+	margin-top: -3px;
+	color: #0095da;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
 }
