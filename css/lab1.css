@@ -4,7 +4,7 @@
   border: 0;
 }
 body {
-	font-family: "Tahoma", "Arial", sans-serif;
+	font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	background-color: #fff;
 }
 .s1 {
@@ -17,6 +17,7 @@ body {
 .MESI {
 	font-size: 80px;
 	font-weight: lighter;
+	font-family: "Helvetica Neue";
 }
 .s2 {
 	position: absolute;
