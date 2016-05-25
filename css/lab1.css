@@ -22,4 +22,9 @@ body {
 	position: absolute;
 	right: 0%;
 	text-align: right;
+	color: #aaaaaa;
+}
+.pos {
+	text-decoration: underline;
+	display: inline;
 }
