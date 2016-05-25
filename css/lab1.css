@@ -1,5 +1,5 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: "Tahoma", "Arial", sans-serif;
 	background-color: #fff;
 	margin: 0px;
 }
@@ -15,7 +15,4 @@ h3 {
 }
 a {
 	color: #0095da;
-}
-th {
-	padding: 0px;
 }
