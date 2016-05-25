@@ -54,7 +54,9 @@ header > div {
     text-align: right;
     color: #aaa;
 }
-
+a.nobr {
+	display: inline-block;
+}
 /*body {*/
 /*font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;*/
 /*background-color: #fff;*/
