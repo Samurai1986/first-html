@@ -9,9 +9,17 @@ body {
 }
 .s1 {
 	color: #0095da;
-	display: inline-flex;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	vertical-align: middle;
 }
 .MESI {
 	font-size: 80px;
 	font-weight: lighter;
+}
+.s2 {
+	position: absolute;
+	right: 0%;
+	text-align: right;
 }
