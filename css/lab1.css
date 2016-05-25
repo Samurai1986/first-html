@@ -1,18 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 body {
 	font-family: "Tahoma", "Arial", sans-serif;
 	background-color: #fff;
-	margin: 0px;
 }
-h1 {
+.s1 {
+	color: #0095da;
+	display: inline-flex;
+}
+.MESI {
 	font-size: 80px;
-	color: #0095da;
 	font-weight: lighter;
-	margin: 0px;
-}
-h3 {
-	color: #0095da;
-	margin: 0px;
-}
-a {
-	color: #0095da;
 }
