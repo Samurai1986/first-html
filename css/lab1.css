@@ -1,31 +1,83 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-body {
-	font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	background-color: #fff;
+
+header > div {
+    display: inline-block;
 }
-.s1 {
-	color: #0095da;
-	display: inline-block;
-	position: relative;
-	text-align: left;
-	vertical-align: middle;
+
+.container {
+    margin-left: 9px;
 }
-.MESI {
-	font-size: 80px;
-	font-weight: lighter;
-	font-family: "Helvetica Neue";
+
+.logo_img {
+    background-size: cover;
+    background-position: center;
+    height: 94px;
+    width: 287px;
 }
-.s2 {
-	position: absolute;
-	right: 0%;
-	text-align: right;
-	color: #aaaaaa;
+
+.logo_subtext {
+    width: 375px;
+    font-size: 20px;
+    margin-left: 20px;
 }
-.pos {
-	text-decoration: underline;
-	display: inline;
+
+.logo_subtext span {
+    color: #0095da;
+    font-family: "Helvetica Neue";
+    text-transform: uppercase;
 }
+.logo_actions {
+    float: right;
+    width: 33%;
+}
+
+.login::before {
+    content: "";
+    background: url('../img/login.png') no-repeat;
+    float: left;
+    height: 13px;
+    width: 13px;
+    padding: 0 6px 0 0;
+    margin-top: 2px;
+    display: block;
+}
+.login {
+    text-decoration: none;
+    border-bottom: 1px solid initial;
+}
+.top_text {
+    display: block;
+    text-align: right;
+    color: #aaa;
+}
+
+/*body {*/
+/*font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;*/
+/*background-color: #fff;*/
+/*}*/
+/*.s1 {*/
+/*color: #0095da;*/
+/*display: inline-block;*/
+/*position: relative;*/
+/*text-align: left;*/
+/*vertical-align: middle;*/
+/*}*/
+/*.MESI {*/
+/*font-size: 80px;*/
+/*font-weight: lighter;*/
+/*font-family: "Helvetica Neue";*/
+/*}*/
+/*.s2 {*/
+/*position: absolute;*/
+/*right: 0%;*/
+/*text-align: right;*/
+/*color: #aaaaaa;*/
+/*}*/
+/*.pos {*/
+/*text-decoration: underline;*/
+/*display: inline;*/
+/*}*/
