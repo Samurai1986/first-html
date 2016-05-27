@@ -11,14 +11,19 @@ body {
 }
 a {
 	color: #0095da;
+	margin-left: 2px;
+}
+.container{
+	width: 100%;
+	position: relative;
 }
 .s1 {
 	color: #0095da;
 	display: inline-block;
-	position: relative;
 	text-align: left;
 	vertical-align: middle;
-	margin-left: 20px;
+	margin-right: 40px;
+	float: right;
 }
 .MESI {
 	font-size: 80px;
@@ -39,7 +44,7 @@ a {
 	text-align: left;
 	vertical-align: middle;
 }
-a.city {
+.city {
 	border-bottom: 1px dashed;
 	text-decoration: none;
 }
