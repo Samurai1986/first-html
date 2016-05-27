@@ -23,7 +23,9 @@ a {
 	text-align: left;
 	vertical-align: middle;
 	margin-right: 40px;
-	float: right;
+	position: absolute;
+	right: 0;
+	top: 25px;
 }
 .MESI {
 	font-size: 80px;
