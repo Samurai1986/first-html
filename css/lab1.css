@@ -31,10 +31,6 @@ a {
 	text-align: right;
 	color: #aaaaaa;
 }
-.pos {
-	text-decoration: underline;
-	display: inline;
-}
 .s3 {
 	margin-top: -3px;
 	color: #0095da;
@@ -44,7 +40,6 @@ a {
 	vertical-align: middle;
 }
 a.city {
-	border-bottom: 1px;
+	border-bottom: 1px dashed;
 	text-decoration: none;
-	border-bottom-style: dashed;
 }
