@@ -87,6 +87,13 @@ a.menus {
 	text-decoration: none;
 	font-size: 10pt;
 }
-.way::before {
-	background-image: url("img/arrow.gif");
+.way:hover {
+	text-decoration: underline;
+}
+.content {
+	margin-left: 20px;
+}
+.page_title {
+	padding: 5px 0 5px 0;
+	font-weight: normal;
 }
