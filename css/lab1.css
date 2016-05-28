@@ -8,6 +8,7 @@ body {
 	font-family:  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	background-color: #fff;
 	width: 100%;
+	margin-left: 5px;
 }
 a {
 	color: #0095da;
@@ -27,11 +28,11 @@ a {
 	right: 0;
 	top: 25px;
 }
-.MESI {
+/*.MESI {
 	font-size: 80px;
 	font-weight: lighter;
 	font-family: "Helvetica Neue";
-}
+}*/
 .s2 {
 	position: absolute;
 	right: 0%;
@@ -68,9 +69,24 @@ a.menus {
 .undermenu {
 	border-top: 1px solid #0095da;
 	background-color: #f0f0f0;
+	padding-left: 30px;
 }
 .pmenu_act {
 	font-weight: bold;
 	color: #7da602;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
+}
+.way_c {
+	width: 100%;
+	position: relative;
+	margin-left: 20px;
+}
+.way {
+	color: #676767;
+	text-decoration: none;
+	font-size: 10pt;
+}
+.way::before {
+	background-image: url("img/arrow.gif");
+}
