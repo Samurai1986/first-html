@@ -35,10 +35,9 @@ a {
 }*/
 .s2 {
 	position: absolute;
-	right: 0%;
+	right: 0;
 	text-align: right;
 	color: #aaaaaa;
-	margin-right: 5px;
 }
 .s3 {
 	margin-top: -3px;
@@ -86,6 +85,9 @@ a.menus {
 	color: #676767;
 	text-decoration: none;
 	font-size: 10pt;
+	padding-right: 10px;
+	background-image: url("img/arrow.gif");
+	background-position: 100% 50%;
 }
 .way:hover {
 	text-decoration: underline;
@@ -96,4 +98,11 @@ a.menus {
 .page_title {
 	padding: 5px 0 5px 0;
 	font-weight: normal;
+}
+.text {
+	color: #4f4f4f;
+}
+.lang {
+	display: inline-block;
+	padding-left: 90px;
 }
